@@ -9,8 +9,7 @@ import plotly.express as px
 # ---------------------------------------
 # 1. Load Dataset
 # ---------------------------------------
-# Sample US Accidents dataset (you can use your own CSV as well)
-url = "https://raw.githubusercontent.com/plotly/datasets/master/us-accidents.csv"
+
 df = pd.read_csv(url)
 
 # Display basic info
